@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire pour mieux connaître mes amis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b1b1b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            padding: 20px;
+            max-width: 1000px;
+            width: 100%;
+            overflow-y: auto;
+            max-height: 80vh;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-group textarea {
+            width: 100%;
+            height: 5em;
+            margin-bottom: 1em;
+            border-radius: 4px;
+            border: 1px solid rgba(255,255,255,0.5);
+            padding: 10px;
+            box-sizing: border-box;
+            background: rgba( 255, 255, 255, 0.15 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            color: white;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulaire pour mieux connaître mes amis</h1>
+    <form action="/summary" method="post">
+        <div class="input-group">
+            <label for="question1">Quelle est votre couleur préférée ?</label>
+            <textarea id="question1" name="question1"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question2">Quel est votre film préféré ?</label>
+            <textarea id="question2" name="question2"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question3">Quel est votre livre préféré ?</label>
+            <textarea id="question3" name="question3"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question4">Quelle est votre destination de voyage de rêve ?</label>
+            <textarea id="question4" name="question4"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question5">Quel est votre passe-temps préféré ?</label>
+            <textarea id="question5" name="question5"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question6">Quelle est votre musique préférée ?</label>
+            <textarea id="question6" name="question6"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question7">Quel est votre animal préféré ?</label>
+            <textarea id="question7" name="question7"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question8">Quel est votre repas préféré ?</label>
+            <textarea id="question8" name="question8"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question9">Quelle est votre boisson préférée ?</label>
+            <textarea id="question9" name="question9"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question10">Quel est votre jeu vidéo préféré ?</label>
+            <textarea id="question10" name="question10"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question11">Quelle est votre émission de télévision préférée ?</label>
+            <textarea id="question11" name="question11"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question12">Quel est votre sport préféré ?</label>
+            <textarea id="question12" name="question12"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question13">Quelle est votre saison préférée ?</label>
+            <textarea id="question13" name="question13"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question14">Quelle est votre fête préférée ?</label>
+            <textarea id="question14" name="question14"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question15">Quel est votre moment de la journée préféré ?</label>
+            <textarea id="question15" name="question15"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question16">Quel est votre souvenir préféré ?</label>
+            <textarea id="question16" name="question16"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question17">Quel est votre type de vêtements préféré ?</label>
+            <textarea id="question17" name="question17"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question18">Quelle est votre marque de vêtements préférée ?</label>
+            <textarea id="question18" name="question18"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question19">Quel est votre lieu préféré ?</label>
+            <textarea id="question19" name="question19"></textarea>
+        </div>
+        <div class="input-group">
+            <label for="question20">Quel est votre rêve le plus cher ?</label>
+            <textarea id="question20" name="question20"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+

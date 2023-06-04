@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résumé des réponses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b1b1b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .summary {
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            padding: 20px;
+            max-width: 500px;
+            width: 100%;
+            overflow-y: auto;
+            max-height: 80vh;
+        }
+        .response-group {
+            margin-bottom: 20px;
+        }
+        .response-group h3 {
+            margin: 0;
+        }
+        .response-group p {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Résumé</h1>
+
+        <p>Ma couleur préférée est {{ form_data['question1'] }}.</p>
+        <p>Mon livre préféré est {{ form_data['question2'] }}.</p>
+        <p>Mon sport préféré est {{ form_data['question3'] }}.</p>
+        <p>Mon film préféré est {{ form_data['question4'] }}.</p>
+        <p>Ma nourriture préférée est {{ form_data['question5'] }}.</p>
+        <p>Je passe mon temps libre à {{ form_data['question6'] }}.</p>
+        <p>J'aimerais voyager à {{ form_data['question7'] }}.</p>
+        <p>Ma chanson préférée est {{ form_data['question8'] }}.</p>
+        <p>J'admire {{ form_data['question9'] }}.</p>
+        <p>Mon animal préféré est {{ form_data['question10'] }}.</p>
+        <p>Ma citation préférée est {{ form_data['question11'] }}.</p>
+        <p>Mon rêve est de {{ form_data['question12'] }}.</p>
+        <p>Mon objectif pour l'année prochaine est {{ form_data['question13'] }}.</p>
+        <p>Si j'étais un super-héros, je serais {{ form_data['question14'] }}.</p>
+        <p>Le lieu où je me sens le plus à l'aise est {{ form_data['question15'] }}.</p>
+        <p>Mon moment préféré de la journée est {{ form_data['question16'] }}.</p>
+        <p>Mon souvenir d'enfance préféré est {{ form_data['question17'] }}.</p>
+        <p>La chose la plus folle que j'ai jamais faite est {{ form_data['question18'] }}.</p>
+        <p>Je ne peux pas vivre sans {{ form_data['question19'] }}.</p>
+        <p>Si je gagnais au loto, je voudrais {{ form_data['question20'] }}.</p>
+
+    </div>
+</body>
+</html>
